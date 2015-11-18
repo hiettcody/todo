@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'todo';
+	src:url('assets/todo.eot?w2p7kt');
+	src:url('assets/todo.eot?w2p7kt#iefix') format('embedded-opentype'),
+		url('assets/todo.ttf?w2p7kt') format('truetype'),
+		url('assets/todo.woff?w2p7kt') format('woff'),
+		url('assets/todo.svg?w2p7kt#todo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'todo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+	content: "\e900";
+}
+.icon-trash:before {
+	content: "\e901";
+}
+.icon-list-item:before {
+	content: "\e902";
+}
+.icon-warning:before {
+	content: "\e903";
+}
+.icon-notification:before {
+	content: "\e904";
+}
+.icon-cancel-circle:before {
+	content: "\e905";
+}
+

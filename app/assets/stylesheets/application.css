@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Animation */
+
+@keyframes alert {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { top: 0; }
+}
+.alert {
+  display: block;
+  border-bottom: 7px solid #f9f9f9;
+  margin-left: 15px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+.flash.success {
+  border-color: #c7f464;
+}
+.flash.error {
+  border-color: #c44d58;
+  color: #c44d58;
+  text-transform: uppercase;
+}
+.flash.notice {
+  border-color: #556270;
+}
